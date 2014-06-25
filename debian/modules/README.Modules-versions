@@ -1,0 +1,9 @@
+README for Modules versions
+---------------------------
+
+ This file lists third party modules built with nginx.
+
+ nginx-echo
+  https://github.com/agentzh/echo-nginx-module
+  Version: v0.53
+

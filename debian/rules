@@ -6,6 +6,8 @@ export DH_VERBOSE=1
 CFLAGS ?= $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 LDFLAGS ?= $(shell dpkg-buildflags --get LDFLAGS)
 
+MODULESDIR = $(CURDIR)/debian/modules
+
 %:
 	dh $@ 
 
@@ -44,7 +46,8 @@ override_dh_auto_configure:
 		--with-http_spdy_module \
 		--with-cc-opt="$(CFLAGS)" \
 		--with-ld-opt="$(LDFLAGS)" \
-		--with-ipv6
+		--with-ipv6 \
+		--add-module=$(MODULESDIR)/nginx-echo
 
 override_dh_auto_install:
 	dh_auto_install
