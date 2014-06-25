@@ -48,7 +48,12 @@ override_dh_auto_configure:
 		--with-cc-opt="$(CFLAGS)" \
 		--with-ld-opt="$(LDFLAGS)" \
 		--with-ipv6 \
-		--add-module=$(MODULESDIR)/nginx-echo
+		--add-module=$(MODULESDIR)/echo \
+		--add-module=$(MODULESDIR)/devel-kit \
+		--add-module=$(MODULESDIR)/set-misc \
+		--add-module=$(MODULESDIR)/redis \
+		--add-module=$(MODULESDIR)/redis2 \
+		--add-module=$(MODULESDIR)/srcache
 
 override_dh_auto_install:
 	dh_auto_install
