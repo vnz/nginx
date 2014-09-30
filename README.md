@@ -17,5 +17,7 @@ Extra modules
 =============
 
 * [echo](http://wiki.nginx.org/NginxHttpEchoModule)
+* [set-misc](http://wiki.nginx.org/NginxHttpSetMiscModule)
+* [devel-kit](https://github.com/simpl/ngx_devel_kit)
 
 

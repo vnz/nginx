@@ -50,10 +50,7 @@ override_dh_auto_configure:
 		--with-ipv6 \
 		--add-module=$(MODULESDIR)/echo \
 		--add-module=$(MODULESDIR)/devel-kit \
-		--add-module=$(MODULESDIR)/set-misc \
-		--add-module=$(MODULESDIR)/redis \
-		--add-module=$(MODULESDIR)/redis2 \
-		--add-module=$(MODULESDIR)/srcache
+		--add-module=$(MODULESDIR)/set-misc
 
 override_dh_auto_install:
 	dh_auto_install

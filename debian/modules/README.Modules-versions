@@ -5,7 +5,7 @@ README for Modules versions
 
  echo
   https://github.com/agentzh/echo-nginx-module
-  Version: v0.53
+  Version: v0.56
 
  devel-kit
   https://github.com/simpl/ngx_devel_kit/tags
@@ -13,16 +13,4 @@ README for Modules versions
 
  set-misc
   https://github.com/openresty/set-misc-nginx-module
-  Version: v0.24
-
- redis
-  http://people.freebsd.org/~osa/ngx_http_redis-0.3.7.tar.gz
-  Version: 0.3.7
-
- redis2
-  https://github.com/openresty/redis2-nginx-module
-  Version: v0.11
-
- srcache
-  https://github.com/openresty/srcache-nginx-module
-  Version: v0.27
+  Version: v0.26
