@@ -1,3 +1,9 @@
+nginx (1:1.6.2-1) unstable; urgency=low
+
+  * Upstream release nginx 1.6.2
+
+ -- vnz <vincent.leraitre@ebuzzing.com>  Tue, 30 Sep 2014 14:15:30 +0200
+
 nginx (1:1.6.0-1) unstable; urgency=low
 
   * start vnz version
